@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    tools:context=".fragments.LandingFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/welcome_back"
+        android:adjustViewBounds="true" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Email"
+                style="@style/TextStyle.Small" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="350dp"
+                android:layout_height="55dp"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp"
+                android:paddingStart="15dp" android:paddingEnd="15dp"
+                android:hint="Enter email"
+                style="@style/EditTextStyle" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Password"
+                style="@style/TextStyle.Small" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="350dp"
+                android:layout_height="55dp"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp"
+                android:paddingStart="15dp" android:paddingEnd="15dp"
+                android:hint="Enter password"
+                style="@style/EditTextStyle" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:text="Forgot Password"
+                android:textSize="20dp"
+                style="@style/TextButtonStyle" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="85dp" android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+            android:text="Log in"
+            style="@style/ButtonStyle.Large.Primary"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/calibri_regular" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:padding="2dp"
+                android:text="Sign up"
+                android:textSize="20dp"
+                style="@style/TextButtonStyle" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
